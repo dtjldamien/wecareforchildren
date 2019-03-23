@@ -8,3 +8,4 @@ class ChildcareCentre(models.Model):
     fees = models.FloatField(max_length=10000)
     infantVacancies = models.CharField(max_length=100)
     k2Vacancies = models.CharField(max_length=100)
+    address = models.CharField(max_length=1000)
